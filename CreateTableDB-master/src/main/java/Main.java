@@ -38,7 +38,9 @@ public class Main {
              *  PRIMARY KEY: un campo necesario para crear una tabla en una base de datos.
              *  Podemos ejecutar una sentencia de CREATE DATABASE, aunque lo vamos hacer por el entorno grafico.
              */
-          //  String sql = "CREATE TABLE prueba (id INT NOT NULL AUTO_INCREMENT, nombre VARCHAR(30) NOT NULL, PRIMARY KEY(id)); ";
+          //  String sql =
+            // "CREATE DATABASE prueba;\n"+
+            // "CREATE TABLE prueba (id INT NOT NULL AUTO_INCREMENT, nombre VARCHAR(30) NOT NULL, PRIMARY KEY(id)); ";
             /**
              * La sentencia insert es la manera que tenemos de insertar unos valores en las columnas, separados por comas.
              *
